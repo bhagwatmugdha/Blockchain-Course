@@ -1,0 +1,29 @@
+::ng-deep .p-timeline-left .p-timeline-event-opposite {
+    text-align: right;
+    padding: 0%;
+    width: 0%;
+    display: none;
+}
+
+.sideNavButton {
+    float: left;
+}
+
+.headerDiv {
+    display: flex;
+    text-align: center;
+}
+
+.heading {
+    font-size: xx-large;
+    color: lightseagreen;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 15%;
+    text-align: center;
+}
+
+::ng-deep .p-divider.p-divider-horizontal:before {
+    border-top: 1px white;
+    width: 100%;
+}

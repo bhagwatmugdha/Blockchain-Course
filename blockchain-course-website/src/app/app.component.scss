@@ -1,0 +1,14 @@
+::ng-deep .p-fieldset-legend-text {
+    line-height: 1;
+    font-size: large;
+    color: lightseagreen;
+}
+
+::ng-deep .p-fieldset .p-fieldset-legend {
+    padding: 1.25rem;
+    border: 2px solid #0b213f;
+    color: rgba(255, 255, 255, 0.87);
+    background: white;
+    font-weight: 700;
+    border-radius: 6px;
+}

@@ -1,0 +1,22 @@
+<p-sidebar [(visible)]="isSideBarVisible" [baseZIndex]="10000">
+    <h3>
+        Course Content
+    </h3>
+
+    <p-timeline [value]="courseContents" align="left">
+        <ng-template pTemplate="content" let-courseContent>
+            {{ courseContent.topic }}
+        </ng-template>
+    </p-timeline>
+</p-sidebar>
+
+<div class="headerDiv">
+    <p-button type="button" class="mr-2 sideNavButton" (click)="isSideBarVisible = true" icon="pi pi-arrow-right">
+    </p-button>
+    <h2 class="heading">
+        Course Contents
+        <p-divider type="dashed"></p-divider>
+    </h2>
+</div>
+
+<app-blockchain-introduction></app-blockchain-introduction>

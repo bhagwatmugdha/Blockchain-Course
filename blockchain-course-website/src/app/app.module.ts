@@ -18,6 +18,8 @@ import { PanelModule } from 'primeng/panel';
 import { SpeedDialModule } from 'primeng/speeddial';
 import { TagModule } from 'primeng/tag';
 import { MenubarModule } from 'primeng/menubar';
+import { SidebarModule } from 'primeng/sidebar';
+
 
 
 import { MenuComponent } from './menu/menu.component';
@@ -25,6 +27,7 @@ import { HomeComponent } from './home/home.component';
 import { CurriculumComponent } from './curriculum/curriculum.component';
 import { FooterComponent } from './footer/footer.component';
 import { CourseContentComponent } from './course-content/course-content.component';
+import { BlockchainIntroductionComponent } from './blockchain-introduction/blockchain-introduction.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +37,7 @@ import { CourseContentComponent } from './course-content/course-content.componen
     CurriculumComponent,
     FooterComponent,
     CourseContentComponent,
+    BlockchainIntroductionComponent,
   ],
   imports: [
     AppRoutingModule,
@@ -49,6 +53,7 @@ import { CourseContentComponent } from './course-content/course-content.componen
     PanelModule,
     RippleModule,
     SpeedDialModule,
+    SidebarModule,
     TabMenuModule,
     TimelineModule,
     TagModule
