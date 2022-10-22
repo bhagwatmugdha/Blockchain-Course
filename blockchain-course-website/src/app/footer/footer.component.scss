@@ -1,0 +1,26 @@
+.footer {
+    margin-bottom: 3%;
+    background-color: #071426;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.footerHeading {
+    font-size: x-large;
+    color: lightseagreen;
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 15%;
+}
+
+.footerText {
+    color: white;
+    font-size: smaller;
+    width: 30%;
+}
+
+.linkedIconFooter {
+    float: right;
+    margin: 5px;
+}

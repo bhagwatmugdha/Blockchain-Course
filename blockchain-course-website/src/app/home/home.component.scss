@@ -1,0 +1,82 @@
+.homeContainer {
+    width: 100%;
+}
+
+.background {
+    width: 100%;
+    text-align: center;
+}
+
+.backgroundImage {
+    height: max-content;
+    width: 100%;
+    text-align: center;
+    border-radius: 5;
+}
+
+.backgroundTopImage {
+    width: 100%;
+}
+
+.backgroundBottomImage {
+    width: 100vw;
+    height: 20vh;
+}
+
+.blockImage {
+    width: 10vw;
+    height: 10vw;
+    color: teal;
+}
+
+.fillerDiv {
+    height: max-content;
+    display: flex;
+    margin: 2% 5% 0% 5%;
+    width: 100%;
+}
+
+.title {
+    font-size: xxx-large;
+    margin: 2% 5% 0% 5%;
+    color: teal;
+}
+
+.informationText {
+    color: lightseagreen;
+    font-size: large;
+    margin: 2% 5% 0% 5%;
+    text-align: justify;
+}
+
+.cardDesign {
+    width: 50%;
+    margin-bottom: 2em;
+    background: white;
+    color: lightseagreen;
+}
+
+::ng-deep .p-fieldset-legend-text {
+    line-height: 1;
+    font-size: large;
+    color: lightseagreen;
+}
+
+::ng-deep .p-fieldset .p-fieldset-legend {
+    padding: 1.25rem;
+    border: 2px solid #0b213f;
+    color: rgba(255, 255, 255, 0.87);
+    background: white;
+    font-weight: 700;
+    border-radius: 6px;
+}
+
+p-fieldset {
+    width: 50%;
+    margin: 1rem;
+}
+
+.containerDiv {
+    display: flex;
+    align-items: flex-start;
+}
